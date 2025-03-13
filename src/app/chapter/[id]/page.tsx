@@ -25,7 +25,7 @@ const fetchChapter = async (id: number) => {
 export const generateMetadata = ({
   params,
 }: {
-  params: { id: string };
+  params: { id: number };
 }): Metadata => {
   const chapter = chapters.find((e: ChapterV2) => e.id == Number(params.id));
   return {
