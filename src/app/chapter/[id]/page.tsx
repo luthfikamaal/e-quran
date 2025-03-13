@@ -10,6 +10,8 @@ import { Button } from "@/components/ui/button";
 import chapters from "../../../data/chapters.json";
 import { Metadata } from "next";
 
+type Params = Promise<{ id: string[] }>;
+
 const fetchChapter = async (id: number) => {
   try {
     const response = await serverApiClient.get<Chapter>(
@@ -22,27 +24,25 @@ const fetchChapter = async (id: number) => {
   }
 };
 
-export const generateMetadata = ({
+export const generateMetadata = async ({
   params,
 }: {
-  params: { id: number };
-}): Metadata => {
-  const chapter = chapters.find((e: ChapterV2) => e.id == Number(params.id));
+  params: Params;
+}): Promise<Metadata> => {
+  const { id } = await params;
+  const chapter = chapters.find((e: ChapterV2) => e.id == Number(id));
   return {
     title: chapter?.name_complex,
     description: chapter?.revelation_place,
   };
 };
 
-export default async function ChapterPage({
-  params,
-}: {
-  params: { id: string };
-}) {
-  const id = Number(params.id);
-  const data = await fetchChapter(id);
+export default async function ChapterPage({ params }: { params: Params }) {
+  // const id = Number(params.id);
+  const { id } = await params;
+  const data = await fetchChapter(Number(id));
   const verses = data?.verses;
-  const chapter = chapters.find((e: ChapterV2) => e.id == id);
+  const chapter = chapters.find((e: ChapterV2) => e.id == Number(id));
 
   if (!data) {
     return <p className="text-center text-red-500">Failed to load chapter.</p>;
@@ -73,13 +73,13 @@ export default async function ChapterPage({
       </Tabs> */}
       <div className="mt-10">
         <div className="mx-auto max-w-xl flex gap-4">
-          {id != 1 && (
-            <Link href={`/chapter/${id - 1}`}>
+          {Number(id) != 1 && (
+            <Link href={`/chapter/${Number(id) - 1}`}>
               <Button variant={"outline"}>Previous</Button>
             </Link>
           )}
-          {id != 114 && (
-            <Link href={`/chapter/${id + 1}`} className="ml-auto">
+          {Number(id) != 114 && (
+            <Link href={`/chapter/${Number(id) + 1}`} className="ml-auto">
               <Button variant={"outline"}>Next</Button>
             </Link>
           )}
