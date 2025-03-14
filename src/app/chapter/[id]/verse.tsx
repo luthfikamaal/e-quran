@@ -85,7 +85,7 @@ export default function VerseComponent({
     return () => {
       sections.forEach((section) => observer.unobserve(section));
     };
-  }, []);
+  }, [chapterVerses]);
 
   useEffect(() => {
     if (activeVerse) {
@@ -98,14 +98,6 @@ export default function VerseComponent({
   }, [activeVerse]);
 
   useEffect(() => {
-    // const handleScroll = () => {
-    //   if (
-    //     window.innerHeight + window.scrollY >=
-    //     document.documentElement.scrollHeight
-    //   ) {
-    //     loadMoreVerse();
-    //   }
-    // };
     const handleScroll = () => {
       const scrollPosition = window.innerHeight + window.scrollY;
       const threshold = document.documentElement.scrollHeight - 30;
