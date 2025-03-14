@@ -1,0 +1,1313 @@
+{
+  "verses": [
+    {
+      "id": 6180,
+      "verse_number": 1,
+      "verse_key": "104:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 548,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ",
+      "chapter_id": 104,
+      "text_imlaei_simple": "ويل لكل همزة لمزة",
+      "page_number": 545,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 108,
+          "position": 1,
+          "audio_url": "wbw/104_001_001.mp3",
+          "verse_key": "104:1",
+          "verse_id": 6180,
+          "location": "104:1:1",
+          "text_uthmani": "وَيْلٌۭ",
+          "text_indopak": "وَيۡلٌ",
+          "qpc_uthmani_hafs": "وَيۡلٞ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 13,
+          "text": "وَیْلٌ",
+          "translation": {
+            "text": "kecelakaan",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "waylun",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 109,
+          "position": 2,
+          "audio_url": "wbw/104_001_002.mp3",
+          "verse_key": "104:1",
+          "verse_id": 6180,
+          "location": "104:1:2",
+          "text_uthmani": "لِّكُلِّ",
+          "text_indopak": "لِّـكُلِّ",
+          "qpc_uthmani_hafs": "لِّكُلِّ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 13,
+          "text": "لِّكُلِّ",
+          "translation": {
+            "text": "bagi setiap",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "likulli",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 110,
+          "position": 3,
+          "audio_url": "wbw/104_001_003.mp3",
+          "verse_key": "104:1",
+          "verse_id": 6180,
+          "location": "104:1:3",
+          "text_uthmani": "هُمَزَةٍۢ",
+          "text_indopak": "هُمَزَةٍ",
+          "qpc_uthmani_hafs": "هُمَزَةٖ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 13,
+          "text": "هُمَزَةٍ",
+          "translation": {
+            "text": "pengumpat",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "humazatin",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 111,
+          "position": 4,
+          "audio_url": "wbw/104_001_004.mp3",
+          "verse_key": "104:1",
+          "verse_id": 6180,
+          "location": "104:1:4",
+          "text_uthmani": "لُّمَزَةٍ",
+          "text_indopak": "لُّمَزَةِ ۙ‏",
+          "qpc_uthmani_hafs": "لُّمَزَةٍ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 13,
+          "text": "لُّمَزَةِ",
+          "translation": {
+            "text": "pencela",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "lumazatin",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 112,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "104:1",
+          "verse_id": 6180,
+          "location": "104:1:5",
+          "text_uthmani": "١",
+          "text_indopak": "١",
+          "qpc_uthmani_hafs": "١",
+          "char_type_name": "end",
+          "page_number": 545,
+          "line_number": 13,
+          "text": "۟ۙ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(1)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 0
+      },
+      "translations": [
+        {
+          "id": 181357,
+          "resource_id": 33,
+          "text": "Celakalah bagi setiap pengumpat dan pencela,"
+        }
+      ]
+    },
+    {
+      "id": 6181,
+      "verse_number": 2,
+      "verse_key": "104:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 548,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِى جَمَعَ مَالًا وَعَدَّدَهُۥ",
+      "chapter_id": 104,
+      "text_imlaei_simple": "الذي جمع مالا وعدده",
+      "page_number": 545,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 1031,
+          "position": 1,
+          "audio_url": "wbw/104_002_001.mp3",
+          "verse_key": "104:2",
+          "verse_id": 6181,
+          "location": "104:2:1",
+          "text_uthmani": "ٱلَّذِى",
+          "text_indopak": "اۨلَّذِىۡ",
+          "qpc_uthmani_hafs": "ٱلَّذِي",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 13,
+          "text": "لَّذِیْ",
+          "translation": {
+            "text": "yang",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "alladhī",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 1032,
+          "position": 2,
+          "audio_url": "wbw/104_002_002.mp3",
+          "verse_key": "104:2",
+          "verse_id": 6181,
+          "location": "104:2:2",
+          "text_uthmani": "جَمَعَ",
+          "text_indopak": "جَمَعَ",
+          "qpc_uthmani_hafs": "جَمَعَ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 13,
+          "text": "جَمَعَ",
+          "translation": {
+            "text": "mengumpulkan",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "jamaʿa",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 1033,
+          "position": 3,
+          "audio_url": "wbw/104_002_003.mp3",
+          "verse_key": "104:2",
+          "verse_id": 6181,
+          "location": "104:2:3",
+          "text_uthmani": "مَالًۭا",
+          "text_indopak": "مَالًا",
+          "qpc_uthmani_hafs": "مَالٗا",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 13,
+          "text": "مَالًا",
+          "translation": {
+            "text": "harta",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "mālan",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 1034,
+          "position": 4,
+          "audio_url": "wbw/104_002_004.mp3",
+          "verse_key": "104:2",
+          "verse_id": 6181,
+          "location": "104:2:4",
+          "text_uthmani": "وَعَدَّدَهُۥ",
+          "text_indopak": "وَّعَدَّدَهٗ ۙ‏",
+          "qpc_uthmani_hafs": "وَعَدَّدَهُۥ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 13,
+          "text": "وَّعَدَّدَهٗ",
+          "translation": {
+            "text": "dan dia menghitungnya",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "waʿaddadahu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 1035,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "104:2",
+          "verse_id": 6181,
+          "location": "104:2:5",
+          "text_uthmani": "٢",
+          "text_indopak": "٢",
+          "qpc_uthmani_hafs": "٢",
+          "char_type_name": "end",
+          "page_number": 545,
+          "line_number": 13,
+          "text": "۟ۙ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(2)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 4600
+      },
+      "translations": [
+        {
+          "id": 181359,
+          "resource_id": 33,
+          "text": "yang mengumpulkan harta dan menghitung-hitungnya,<sup foot_note=135875>1</sup>"
+        }
+      ]
+    },
+    {
+      "id": 6182,
+      "verse_number": 3,
+      "verse_key": "104:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 548,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+      "chapter_id": 104,
+      "text_imlaei_simple": "يحسب ان ماله اخلده",
+      "page_number": 545,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 2234,
+          "position": 1,
+          "audio_url": "wbw/104_003_001.mp3",
+          "verse_key": "104:3",
+          "verse_id": 6182,
+          "location": "104:3:1",
+          "text_uthmani": "يَحْسَبُ",
+          "text_indopak": "يَحۡسَبُ",
+          "qpc_uthmani_hafs": "يَحۡسَبُ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 14,
+          "text": "یَحْسَبُ",
+          "translation": {
+            "text": "dia mengira",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "yaḥsabu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2235,
+          "position": 2,
+          "audio_url": "wbw/104_003_002.mp3",
+          "verse_key": "104:3",
+          "verse_id": 6182,
+          "location": "104:3:2",
+          "text_uthmani": "أَنَّ",
+          "text_indopak": "اَنَّ",
+          "qpc_uthmani_hafs": "أَنَّ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 14,
+          "text": "اَنَّ",
+          "translation": {
+            "text": "bahwasanya",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "anna",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2236,
+          "position": 3,
+          "audio_url": "wbw/104_003_003.mp3",
+          "verse_key": "104:3",
+          "verse_id": 6182,
+          "location": "104:3:3",
+          "text_uthmani": "مَالَهُۥٓ",
+          "text_indopak": "مَالَهٗۤ",
+          "qpc_uthmani_hafs": "مَالَهُۥٓ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 14,
+          "text": "مَالَهٗۤ",
+          "translation": {
+            "text": "hartanya",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "mālahu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2237,
+          "position": 4,
+          "audio_url": "wbw/104_003_004.mp3",
+          "verse_key": "104:3",
+          "verse_id": 6182,
+          "location": "104:3:4",
+          "text_uthmani": "أَخْلَدَهُۥ",
+          "text_indopak": "اَخۡلَدَهٗ​ ۚ‏",
+          "qpc_uthmani_hafs": "أَخۡلَدَهُۥ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 14,
+          "text": "اَخْلَدَهٗ",
+          "translation": {
+            "text": "mengekalkannya",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "akhladahu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2238,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "104:3",
+          "verse_id": 6182,
+          "location": "104:3:5",
+          "text_uthmani": "٣",
+          "text_indopak": "٣",
+          "qpc_uthmani_hafs": "٣",
+          "char_type_name": "end",
+          "page_number": 545,
+          "line_number": 14,
+          "text": "۟ۚ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(3)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 9980
+      },
+      "translations": [
+        {
+          "id": 181356,
+          "resource_id": 33,
+          "text": "dia (manusia) mengira bahwa hartanya itu dapat mengekalkannya."
+        }
+      ]
+    },
+    {
+      "id": 6183,
+      "verse_number": 4,
+      "verse_key": "104:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 548,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+      "chapter_id": 104,
+      "text_imlaei_simple": "كلا لينبذن في الحطمة",
+      "page_number": 545,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 3599,
+          "position": 1,
+          "audio_url": "wbw/104_004_001.mp3",
+          "verse_key": "104:4",
+          "verse_id": 6183,
+          "location": "104:4:1",
+          "text_uthmani": "كَلَّا ۖ",
+          "text_indopak": "كَلَّا​",
+          "qpc_uthmani_hafs": "كـَلَّاۖ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 14,
+          "text": "كَلَّا",
+          "translation": {
+            "text": "sekali-kali tidak",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "kallā",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 3601,
+          "position": 2,
+          "audio_url": "wbw/104_004_003.mp3",
+          "verse_key": "104:4",
+          "verse_id": 6183,
+          "location": "104:4:2",
+          "text_uthmani": "لَيُنۢبَذَنَّ",
+          "text_indopak": "لَيُنۡۢبَذَنَّ",
+          "qpc_uthmani_hafs": "لَيُنۢبَذَنَّ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 14,
+          "text": "لَیُنْۢبَذَنَّ",
+          "translation": {
+            "text": "sungguh dia akan dilemparkan",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "layunbadhanna",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 3602,
+          "position": 3,
+          "audio_url": "wbw/104_004_004.mp3",
+          "verse_key": "104:4",
+          "verse_id": 6183,
+          "location": "104:4:3",
+          "text_uthmani": "فِى",
+          "text_indopak": "فِى",
+          "qpc_uthmani_hafs": "فِي",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 14,
+          "text": "فِی",
+          "translation": {
+            "text": "dalam",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "fī",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 3603,
+          "position": 4,
+          "audio_url": "wbw/104_004_005.mp3",
+          "verse_key": "104:4",
+          "verse_id": 6183,
+          "location": "104:4:4",
+          "text_uthmani": "ٱلْحُطَمَةِ",
+          "text_indopak": "الۡحُطَمَةِ  ۖ‏",
+          "qpc_uthmani_hafs": "ٱلۡحُطَمَةِ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 14,
+          "text": "الْحُطَمَةِ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "Hutamah",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "l-ḥuṭamati",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 3604,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "104:4",
+          "verse_id": 6183,
+          "location": "104:4:5",
+          "text_uthmani": "٤",
+          "text_indopak": "٤",
+          "qpc_uthmani_hafs": "٤",
+          "char_type_name": "end",
+          "page_number": 545,
+          "line_number": 14,
+          "text": "۟ؗۖ",
+          "translation": {
+            "text": "(4)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 16640
+      },
+      "translations": [
+        {
+          "id": 181361,
+          "resource_id": 33,
+          "text": "Sekali-kali tidak! Pasti dia akan dilemparkan ke dalam (neraka) Ḥuṭamah."
+        }
+      ]
+    },
+    {
+      "id": 6184,
+      "verse_number": 5,
+      "verse_key": "104:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 548,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+      "chapter_id": 104,
+      "text_imlaei_simple": "وما ادراك ما الحطمة",
+      "page_number": 545,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 4913,
+          "position": 1,
+          "audio_url": "wbw/104_005_001.mp3",
+          "verse_key": "104:5",
+          "verse_id": 6184,
+          "location": "104:5:1",
+          "text_uthmani": "وَمَآ",
+          "text_indopak": "وَمَاۤ",
+          "qpc_uthmani_hafs": "وَمَآ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 15,
+          "text": "وَمَاۤ",
+          "translation": {
+            "text": "dan apakah",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "wamā",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 4914,
+          "position": 2,
+          "audio_url": "wbw/104_005_002.mp3",
+          "verse_key": "104:5",
+          "verse_id": 6184,
+          "location": "104:5:2",
+          "text_uthmani": "أَدْرَىٰكَ",
+          "text_indopak": "اَدۡرٰٮكَ",
+          "qpc_uthmani_hafs": "أَدۡرَىٰكَ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 15,
+          "text": "اَدْرٰىكَ",
+          "translation": {
+            "text": "kamu tahu",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "adrāka",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 4915,
+          "position": 3,
+          "audio_url": "wbw/104_005_003.mp3",
+          "verse_key": "104:5",
+          "verse_id": 6184,
+          "location": "104:5:3",
+          "text_uthmani": "مَا",
+          "text_indopak": "مَا",
+          "qpc_uthmani_hafs": "مَا",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 15,
+          "text": "مَا",
+          "translation": {
+            "text": "apa",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "mā",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 4916,
+          "position": 4,
+          "audio_url": "wbw/104_005_004.mp3",
+          "verse_key": "104:5",
+          "verse_id": 6184,
+          "location": "104:5:4",
+          "text_uthmani": "ٱلْحُطَمَةُ",
+          "text_indopak": "الۡحُطَمَةُ ؕ‏",
+          "qpc_uthmani_hafs": "ٱلۡحُطَمَةُ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 15,
+          "text": "الْحُطَمَةُ",
+          "translation": {
+            "text": "Hutamah",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "l-ḥuṭamatu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 4917,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "104:5",
+          "verse_id": 6184,
+          "location": "104:5:5",
+          "text_uthmani": "٥",
+          "text_indopak": "٥",
+          "qpc_uthmani_hafs": "٥",
+          "char_type_name": "end",
+          "page_number": 545,
+          "line_number": 15,
+          "text": "۟ؕ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(5)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 23380
+      },
+      "translations": [
+        {
+          "id": 182313,
+          "resource_id": 33,
+          "text": "Dan tahukah kamu apakah (neraka) Ḥuṭamah itu?"
+        }
+      ]
+    },
+    {
+      "id": 6185,
+      "verse_number": 6,
+      "verse_key": "104:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 548,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+      "chapter_id": 104,
+      "text_imlaei_simple": "نار الله الموقدة",
+      "page_number": 545,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 6148,
+          "position": 1,
+          "audio_url": "wbw/104_006_001.mp3",
+          "verse_key": "104:6",
+          "verse_id": 6185,
+          "location": "104:6:1",
+          "text_uthmani": "نَارُ",
+          "text_indopak": "نَارُ",
+          "qpc_uthmani_hafs": "نَارُ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 15,
+          "text": "نَارُ",
+          "translation": {
+            "text": "api",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "nāru",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 6149,
+          "position": 2,
+          "audio_url": "wbw/104_006_002.mp3",
+          "verse_key": "104:6",
+          "verse_id": 6185,
+          "location": "104:6:2",
+          "text_uthmani": "ٱللَّهِ",
+          "text_indopak": "اللّٰهِ",
+          "qpc_uthmani_hafs": "ٱللَّهِ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 15,
+          "text": "اللّٰهِ",
+          "translation": {
+            "text": "Allah",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "l-lahi",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 6150,
+          "position": 3,
+          "audio_url": "wbw/104_006_003.mp3",
+          "verse_key": "104:6",
+          "verse_id": 6185,
+          "location": "104:6:3",
+          "text_uthmani": "ٱلْمُوقَدَةُ",
+          "text_indopak": "الۡمُوۡقَدَةُ ۙ‏",
+          "qpc_uthmani_hafs": "ٱلۡمُوقَدَةُ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 15,
+          "text": "الْمُوْقَدَةُ",
+          "translation": {
+            "text": "dinyalakan",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "l-mūqadatu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 6151,
+          "position": 4,
+          "audio_url": null,
+          "verse_key": "104:6",
+          "verse_id": 6185,
+          "location": "104:6:4",
+          "text_uthmani": "٦",
+          "text_indopak": "٦",
+          "qpc_uthmani_hafs": "٦",
+          "char_type_name": "end",
+          "page_number": 545,
+          "line_number": 15,
+          "text": "۟ۙ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(6)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 28400
+      },
+      "translations": [
+        {
+          "id": 181363,
+          "resource_id": 33,
+          "text": "(Yaitu) api (azab) Allah yang dinyalakan,"
+        }
+      ]
+    },
+    {
+      "id": 6186,
+      "verse_number": 7,
+      "verse_key": "104:7",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 548,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+      "chapter_id": 104,
+      "text_imlaei_simple": "التي تطلع على الافئدة",
+      "page_number": 545,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 7378,
+          "position": 1,
+          "audio_url": "wbw/104_007_001.mp3",
+          "verse_key": "104:7",
+          "verse_id": 6186,
+          "location": "104:7:1",
+          "text_uthmani": "ٱلَّتِى",
+          "text_indopak": "الَّتِىۡ",
+          "qpc_uthmani_hafs": "ٱلَّتِي",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 15,
+          "text": "الَّتِیْ",
+          "translation": {
+            "text": "yang",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "allatī",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 7379,
+          "position": 2,
+          "audio_url": "wbw/104_007_002.mp3",
+          "verse_key": "104:7",
+          "verse_id": 6186,
+          "location": "104:7:2",
+          "text_uthmani": "تَطَّلِعُ",
+          "text_indopak": "تَطَّلِعُ",
+          "qpc_uthmani_hafs": "تَطَّلِعُ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 15,
+          "text": "تَطَّلِعُ",
+          "translation": {
+            "text": "naik",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "taṭṭaliʿu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 7380,
+          "position": 3,
+          "audio_url": "wbw/104_007_003.mp3",
+          "verse_key": "104:7",
+          "verse_id": 6186,
+          "location": "104:7:3",
+          "text_uthmani": "عَلَى",
+          "text_indopak": "عَلَى",
+          "qpc_uthmani_hafs": "عَلَى",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 15,
+          "text": "عَلَی",
+          "translation": {
+            "text": "ke atas/sampai",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "ʿalā",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 7381,
+          "position": 4,
+          "audio_url": "wbw/104_007_004.mp3",
+          "verse_key": "104:7",
+          "verse_id": 6186,
+          "location": "104:7:4",
+          "text_uthmani": "ٱلْأَفْـِٔدَةِ",
+          "text_indopak": "الۡاَفۡـــِٕدَةِ ؕ‏",
+          "qpc_uthmani_hafs": "ٱلۡأَفۡـِٔدَةِ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 16,
+          "text": "الْاَفْـِٕدَةِ",
+          "translation": {
+            "text": "hati",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "l-afidati",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 7382,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "104:7",
+          "verse_id": 6186,
+          "location": "104:7:5",
+          "text_uthmani": "٧",
+          "text_indopak": "٧",
+          "qpc_uthmani_hafs": "٧",
+          "char_type_name": "end",
+          "page_number": 545,
+          "line_number": 16,
+          "text": "۟ؕ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(7)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 31900
+      },
+      "translations": [
+        {
+          "id": 181372,
+          "resource_id": 33,
+          "text": "yang (membakar) sampai ke hati."
+        }
+      ]
+    },
+    {
+      "id": 6187,
+      "verse_number": 8,
+      "verse_key": "104:8",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 548,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ",
+      "chapter_id": 104,
+      "text_imlaei_simple": "انها عليهم مؤصدة",
+      "page_number": 545,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 8482,
+          "position": 1,
+          "audio_url": "wbw/104_008_001.mp3",
+          "verse_key": "104:8",
+          "verse_id": 6187,
+          "location": "104:8:1",
+          "text_uthmani": "إِنَّهَا",
+          "text_indopak": "اِنَّهَا",
+          "qpc_uthmani_hafs": "إِنَّهَا",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 16,
+          "text": "اِنَّهَا",
+          "translation": {
+            "text": "sesungguhnya ia (api)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "innahā",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 8483,
+          "position": 2,
+          "audio_url": "wbw/104_008_002.mp3",
+          "verse_key": "104:8",
+          "verse_id": 6187,
+          "location": "104:8:2",
+          "text_uthmani": "عَلَيْهِم",
+          "text_indopak": "عَلَيۡهِمۡ",
+          "qpc_uthmani_hafs": "عَلَيۡهِم",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 16,
+          "text": "عَلَیْهِمْ",
+          "translation": {
+            "text": "atas mereka",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "ʿalayhim",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 8484,
+          "position": 3,
+          "audio_url": "wbw/104_008_003.mp3",
+          "verse_key": "104:8",
+          "verse_id": 6187,
+          "location": "104:8:3",
+          "text_uthmani": "مُّؤْصَدَةٌۭ",
+          "text_indopak": "مُّؤۡصَدَةٌ ۙ‏",
+          "qpc_uthmani_hafs": "مُّؤۡصَدَةٞ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 16,
+          "text": "مُّؤْصَدَةٌ",
+          "translation": {
+            "text": "terikat/ditutup rapat",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "mu'ṣadatun",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 8485,
+          "position": 4,
+          "audio_url": null,
+          "verse_key": "104:8",
+          "verse_id": 6187,
+          "location": "104:8:4",
+          "text_uthmani": "٨",
+          "text_indopak": "٨",
+          "qpc_uthmani_hafs": "٨",
+          "char_type_name": "end",
+          "page_number": 545,
+          "line_number": 16,
+          "text": "۟ۙ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(8)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 36340
+      },
+      "translations": [
+        {
+          "id": 181355,
+          "resource_id": 33,
+          "text": "Sungguh, api itu ditutup rapat atas (diri) mereka,"
+        }
+      ]
+    },
+    {
+      "id": 6188,
+      "verse_number": 9,
+      "verse_key": "104:9",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 548,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِى عَمَدٍ مُّمَدَّدَةٍۭ",
+      "chapter_id": 104,
+      "text_imlaei_simple": "في عمد ممددة",
+      "page_number": 545,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 10159,
+          "position": 1,
+          "audio_url": "wbw/104_009_001.mp3",
+          "verse_key": "104:9",
+          "verse_id": 6188,
+          "location": "104:9:1",
+          "text_uthmani": "فِى",
+          "text_indopak": "فِىۡ",
+          "qpc_uthmani_hafs": "فِي",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 16,
+          "text": "فِیْ",
+          "translation": {
+            "text": "dalam/pada",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "fī",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 10160,
+          "position": 2,
+          "audio_url": "wbw/104_009_002.mp3",
+          "verse_key": "104:9",
+          "verse_id": 6188,
+          "location": "104:9:2",
+          "text_uthmani": "عَمَدٍۢ",
+          "text_indopak": "عَمَدٍ",
+          "qpc_uthmani_hafs": "عَمَدٖ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 16,
+          "text": "عَمَدٍ",
+          "translation": {
+            "text": "tiang",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "ʿamadin",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 10161,
+          "position": 3,
+          "audio_url": "wbw/104_009_003.mp3",
+          "verse_key": "104:9",
+          "verse_id": 6188,
+          "location": "104:9:3",
+          "text_uthmani": "مُّمَدَّدَةٍۭ",
+          "text_indopak": "مُّمَدَّدَةٍ‏",
+          "qpc_uthmani_hafs": "مُّمَدَّدَةِۭ",
+          "char_type_name": "word",
+          "page_number": 545,
+          "line_number": 16,
+          "text": "مُّمَدَّدَةٍ",
+          "translation": {
+            "text": "panjang",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "mumaddadatin",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 10162,
+          "position": 4,
+          "audio_url": null,
+          "verse_key": "104:9",
+          "verse_id": 6188,
+          "location": "104:9:4",
+          "text_uthmani": "٩",
+          "text_indopak": "٩",
+          "qpc_uthmani_hafs": "٩",
+          "char_type_name": "end",
+          "page_number": 545,
+          "line_number": 16,
+          "text": "۟۠",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(9)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 42010
+      },
+      "translations": [
+        {
+          "id": 181370,
+          "resource_id": 33,
+          "text": "(sedang mereka itu) diikat pada tiang-tiang yang panjang."
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "per_page": 9,
+    "current_page": 1,
+    "next_page": null,
+    "total_pages": 1,
+    "total_records": 9
+  }
+}

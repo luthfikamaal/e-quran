@@ -1,0 +1,1007 @@
+{
+  "verses": [
+    {
+      "id": 6198,
+      "verse_number": 1,
+      "verse_key": "107:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+      "chapter_id": 107,
+      "text_imlaei_simple": "ارايت الذي يكذب بالدين",
+      "page_number": 546,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 256,
+          "position": 1,
+          "audio_url": "wbw/107_001_001.mp3",
+          "verse_key": "107:1",
+          "verse_id": 6198,
+          "location": "107:1:1",
+          "text_uthmani": "أَرَءَيْتَ",
+          "text_indopak": "اَرَءَيۡتَ",
+          "qpc_uthmani_hafs": "أَرَءَيۡتَ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 10,
+          "text": "اَرَءَیْتَ",
+          "translation": {
+            "text": "tahukah kamu",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "ara-ayta",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 257,
+          "position": 2,
+          "audio_url": "wbw/107_001_002.mp3",
+          "verse_key": "107:1",
+          "verse_id": 6198,
+          "location": "107:1:2",
+          "text_uthmani": "ٱلَّذِى",
+          "text_indopak": "الَّذِىۡ",
+          "qpc_uthmani_hafs": "ٱلَّذِي",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 10,
+          "text": "الَّذِیْ",
+          "translation": {
+            "text": "yang",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "alladhī",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 258,
+          "position": 3,
+          "audio_url": "wbw/107_001_003.mp3",
+          "verse_key": "107:1",
+          "verse_id": 6198,
+          "location": "107:1:3",
+          "text_uthmani": "يُكَذِّبُ",
+          "text_indopak": "يُكَذِّبُ",
+          "qpc_uthmani_hafs": "يُكَذِّبُ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 10,
+          "text": "یُكَذِّبُ",
+          "translation": {
+            "text": "dia mendustakan",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "yukadhibu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 259,
+          "position": 4,
+          "audio_url": "wbw/107_001_004.mp3",
+          "verse_key": "107:1",
+          "verse_id": 6198,
+          "location": "107:1:4",
+          "text_uthmani": "بِٱلدِّينِ",
+          "text_indopak": "بِالدِّيۡنِؕ‏",
+          "qpc_uthmani_hafs": "بِٱلدِّينِ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 10,
+          "text": "بِالدِّیْنِ",
+          "translation": {
+            "text": "dengan agama",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "bil-dīni",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 260,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "107:1",
+          "verse_id": 6198,
+          "location": "107:1:5",
+          "text_uthmani": "١",
+          "text_indopak": "١",
+          "qpc_uthmani_hafs": "١",
+          "char_type_name": "end",
+          "page_number": 546,
+          "line_number": 10,
+          "text": "۟ؕ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(1)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 0
+      },
+      "translations": [
+        {
+          "id": 177228,
+          "resource_id": 33,
+          "text": "Tahukah kamu (orang) yang mendustakan agama?"
+        }
+      ]
+    },
+    {
+      "id": 6199,
+      "verse_number": 2,
+      "verse_key": "107:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+      "chapter_id": 107,
+      "text_imlaei_simple": "فذلك الذي يدع اليتيم",
+      "page_number": 546,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 1007,
+          "position": 1,
+          "audio_url": "wbw/107_002_001.mp3",
+          "verse_key": "107:2",
+          "verse_id": 6199,
+          "location": "107:2:1",
+          "text_uthmani": "فَذَٰلِكَ",
+          "text_indopak": "فَذٰلِكَ",
+          "qpc_uthmani_hafs": "فَذَٰلِكَ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 10,
+          "text": "فَذٰلِكَ",
+          "translation": {
+            "text": "maka itulah",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "fadhālika",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 1008,
+          "position": 2,
+          "audio_url": "wbw/107_002_002.mp3",
+          "verse_key": "107:2",
+          "verse_id": 6199,
+          "location": "107:2:2",
+          "text_uthmani": "ٱلَّذِى",
+          "text_indopak": "الَّذِىۡ",
+          "qpc_uthmani_hafs": "ٱلَّذِي",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 10,
+          "text": "الَّذِیْ",
+          "translation": {
+            "text": "yang",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "alladhī",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 1009,
+          "position": 3,
+          "audio_url": "wbw/107_002_003.mp3",
+          "verse_key": "107:2",
+          "verse_id": 6199,
+          "location": "107:2:3",
+          "text_uthmani": "يَدُعُّ",
+          "text_indopak": "يَدُعُّ",
+          "qpc_uthmani_hafs": "يَدُعُّ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 10,
+          "text": "یَدُعُّ",
+          "translation": {
+            "text": "dia menghardik",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "yaduʿʿu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 1010,
+          "position": 4,
+          "audio_url": "wbw/107_002_004.mp3",
+          "verse_key": "107:2",
+          "verse_id": 6199,
+          "location": "107:2:4",
+          "text_uthmani": "ٱلْيَتِيمَ",
+          "text_indopak": "الۡيَتِيۡمَۙ‏",
+          "qpc_uthmani_hafs": "ٱلۡيَتِيمَ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 10,
+          "text": "الْیَتِیْمَ",
+          "translation": {
+            "text": "anak yatim",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "l-yatīma",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 1011,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "107:2",
+          "verse_id": 6199,
+          "location": "107:2:5",
+          "text_uthmani": "٢",
+          "text_indopak": "٢",
+          "qpc_uthmani_hafs": "٢",
+          "char_type_name": "end",
+          "page_number": 546,
+          "line_number": 10,
+          "text": "۟ۙ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(2)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 6270
+      },
+      "translations": [
+        {
+          "id": 181406,
+          "resource_id": 33,
+          "text": "Maka itulah orang yang menghardik anak yatim,"
+        }
+      ]
+    },
+    {
+      "id": 6200,
+      "verse_number": 3,
+      "verse_key": "107:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "chapter_id": 107,
+      "text_imlaei_simple": "ولا يحض على طعام المسكين",
+      "page_number": 546,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 2449,
+          "position": 1,
+          "audio_url": "wbw/107_003_001.mp3",
+          "verse_key": "107:3",
+          "verse_id": 6200,
+          "location": "107:3:1",
+          "text_uthmani": "وَلَا",
+          "text_indopak": "وَ",
+          "qpc_uthmani_hafs": "وَلَا",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 11,
+          "text": "وَلَا",
+          "translation": {
+            "text": "dan tidak",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "walā",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2450,
+          "position": 2,
+          "audio_url": "wbw/107_003_002.mp3",
+          "verse_key": "107:3",
+          "verse_id": 6200,
+          "location": "107:3:2",
+          "text_uthmani": "يَحُضُّ",
+          "text_indopak": "لَا",
+          "qpc_uthmani_hafs": "يَحُضُّ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 11,
+          "text": "یَحُضُّ",
+          "translation": {
+            "text": "menganjurkan",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "yaḥuḍḍu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2451,
+          "position": 3,
+          "audio_url": "wbw/107_003_003.mp3",
+          "verse_key": "107:3",
+          "verse_id": 6200,
+          "location": "107:3:3",
+          "text_uthmani": "عَلَىٰ",
+          "text_indopak": "يَحُضُّ",
+          "qpc_uthmani_hafs": "عَلَىٰ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 11,
+          "text": "عَلٰی",
+          "translation": {
+            "text": "atas",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "ʿalā",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2452,
+          "position": 4,
+          "audio_url": "wbw/107_003_004.mp3",
+          "verse_key": "107:3",
+          "verse_id": 6200,
+          "location": "107:3:4",
+          "text_uthmani": "طَعَامِ",
+          "text_indopak": "عَلٰى",
+          "qpc_uthmani_hafs": "طَعَامِ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 11,
+          "text": "طَعَامِ",
+          "translation": {
+            "text": "memberi makan",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "ṭaʿāmi",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2453,
+          "position": 5,
+          "audio_url": "wbw/107_003_005.mp3",
+          "verse_key": "107:3",
+          "verse_id": 6200,
+          "location": "107:3:5",
+          "text_uthmani": "ٱلْمِسْكِينِ",
+          "text_indopak": "طَعَامِ الۡمِسۡكِيۡنِؕ‏",
+          "qpc_uthmani_hafs": "ٱلۡمِسۡكِينِ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 11,
+          "text": "الْمِسْكِیْنِ",
+          "translation": {
+            "text": "orang miskin",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "l-mis'kīni",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2454,
+          "position": 6,
+          "audio_url": null,
+          "verse_key": "107:3",
+          "verse_id": 6200,
+          "location": "107:3:6",
+          "text_uthmani": "٣",
+          "text_indopak": "٣",
+          "qpc_uthmani_hafs": "٣",
+          "char_type_name": "end",
+          "page_number": 546,
+          "line_number": 11,
+          "text": "۟ؕ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(3)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 12800
+      },
+      "translations": [
+        {
+          "id": 181407,
+          "resource_id": 33,
+          "text": "dan tidak mengajak memberi makan orang miskin."
+        }
+      ]
+    },
+    {
+      "id": 6201,
+      "verse_number": 4,
+      "verse_key": "107:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+      "chapter_id": 107,
+      "text_imlaei_simple": "فويل للمصلين",
+      "page_number": 546,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 3903,
+          "position": 1,
+          "audio_url": "wbw/107_004_001.mp3",
+          "verse_key": "107:4",
+          "verse_id": 6201,
+          "location": "107:4:1",
+          "text_uthmani": "فَوَيْلٌۭ",
+          "text_indopak": "فَوَيۡلٌ",
+          "qpc_uthmani_hafs": "فَوَيۡلٞ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 11,
+          "text": "فَوَیْلٌ",
+          "translation": {
+            "text": "maka celakalah",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "fawaylun",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 3904,
+          "position": 2,
+          "audio_url": "wbw/107_004_002.mp3",
+          "verse_key": "107:4",
+          "verse_id": 6201,
+          "location": "107:4:2",
+          "text_uthmani": "لِّلْمُصَلِّينَ",
+          "text_indopak": "لِّلۡمُصَلِّيۡنَۙ‏",
+          "qpc_uthmani_hafs": "لِّلۡمُصَلِّينَ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 11,
+          "text": "لِّلْمُصَلِّیْنَ",
+          "translation": {
+            "text": "orang yang sholat",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "lil'muṣallīna",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 3905,
+          "position": 3,
+          "audio_url": null,
+          "verse_key": "107:4",
+          "verse_id": 6201,
+          "location": "107:4:3",
+          "text_uthmani": "٤",
+          "text_indopak": "٤",
+          "qpc_uthmani_hafs": "٤",
+          "char_type_name": "end",
+          "page_number": 546,
+          "line_number": 11,
+          "text": "۟ۙ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(4)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 20010
+      },
+      "translations": [
+        {
+          "id": 181409,
+          "resource_id": 33,
+          "text": "Maka celakalah orang yang salat,"
+        }
+      ]
+    },
+    {
+      "id": 6202,
+      "verse_number": 5,
+      "verse_key": "107:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+      "chapter_id": 107,
+      "text_imlaei_simple": "الذين هم عن صلاتهم ساهون",
+      "page_number": 546,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 5264,
+          "position": 1,
+          "audio_url": "wbw/107_005_001.mp3",
+          "verse_key": "107:5",
+          "verse_id": 6202,
+          "location": "107:5:1",
+          "text_uthmani": "ٱلَّذِينَ",
+          "text_indopak": "الَّذِيۡنَ",
+          "qpc_uthmani_hafs": "ٱلَّذِينَ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 12,
+          "text": "الَّذِیْنَ",
+          "translation": {
+            "text": "orang-orang yang",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "alladhīna",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5265,
+          "position": 2,
+          "audio_url": "wbw/107_005_002.mp3",
+          "verse_key": "107:5",
+          "verse_id": 6202,
+          "location": "107:5:2",
+          "text_uthmani": "هُمْ",
+          "text_indopak": "هُمۡ",
+          "qpc_uthmani_hafs": "هُمۡ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 12,
+          "text": "هُمْ",
+          "translation": {
+            "text": "mereka",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "hum",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5266,
+          "position": 3,
+          "audio_url": "wbw/107_005_003.mp3",
+          "verse_key": "107:5",
+          "verse_id": 6202,
+          "location": "107:5:3",
+          "text_uthmani": "عَن",
+          "text_indopak": "عَنۡ",
+          "qpc_uthmani_hafs": "عَن",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 12,
+          "text": "عَنْ",
+          "translation": {
+            "text": "dar",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "ʿan",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5267,
+          "position": 4,
+          "audio_url": "wbw/107_005_004.mp3",
+          "verse_key": "107:5",
+          "verse_id": 6202,
+          "location": "107:5:4",
+          "text_uthmani": "صَلَاتِهِمْ",
+          "text_indopak": "صَلَاتِهِمۡ",
+          "qpc_uthmani_hafs": "صَلَاتِهِمۡ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 12,
+          "text": "صَلَاتِهِمْ",
+          "translation": {
+            "text": "sholat mereka",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "ṣalātihim",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5268,
+          "position": 5,
+          "audio_url": "wbw/107_005_005.mp3",
+          "verse_key": "107:5",
+          "verse_id": 6202,
+          "location": "107:5:5",
+          "text_uthmani": "سَاهُونَ",
+          "text_indopak": "سَاهُوۡنَۙ‏",
+          "qpc_uthmani_hafs": "سَاهُونَ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 12,
+          "text": "سَاهُوْنَ",
+          "translation": {
+            "text": "lalai",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "sāhūna",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5269,
+          "position": 6,
+          "audio_url": null,
+          "verse_key": "107:5",
+          "verse_id": 6202,
+          "location": "107:5:6",
+          "text_uthmani": "٥",
+          "text_indopak": "٥",
+          "qpc_uthmani_hafs": "٥",
+          "char_type_name": "end",
+          "page_number": 546,
+          "line_number": 12,
+          "text": "۟ۙ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(5)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 25730
+      },
+      "translations": [
+        {
+          "id": 181408,
+          "resource_id": 33,
+          "text": "(yaitu) orang-orang yang lalai terhadap salatnya,<sup foot_note=135878>1</sup>"
+        }
+      ]
+    },
+    {
+      "id": 6203,
+      "verse_number": 6,
+      "verse_key": "107:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
+      "chapter_id": 107,
+      "text_imlaei_simple": "الذين هم يراءون",
+      "page_number": 546,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 6392,
+          "position": 1,
+          "audio_url": "wbw/107_006_001.mp3",
+          "verse_key": "107:6",
+          "verse_id": 6203,
+          "location": "107:6:1",
+          "text_uthmani": "ٱلَّذِينَ",
+          "text_indopak": "الَّذِيۡنَ",
+          "qpc_uthmani_hafs": "ٱلَّذِينَ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 12,
+          "text": "الَّذِیْنَ",
+          "translation": {
+            "text": "orang-orang yang",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "alladhīna",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 6393,
+          "position": 2,
+          "audio_url": "wbw/107_006_002.mp3",
+          "verse_key": "107:6",
+          "verse_id": 6203,
+          "location": "107:6:2",
+          "text_uthmani": "هُمْ",
+          "text_indopak": "هُمۡ",
+          "qpc_uthmani_hafs": "هُمۡ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 12,
+          "text": "هُمْ",
+          "translation": {
+            "text": "mereka",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "hum",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 6394,
+          "position": 3,
+          "audio_url": "wbw/107_006_003.mp3",
+          "verse_key": "107:6",
+          "verse_id": 6203,
+          "location": "107:6:3",
+          "text_uthmani": "يُرَآءُونَ",
+          "text_indopak": "يُرَآءُوۡنَۙ‏",
+          "qpc_uthmani_hafs": "يُرَآءُونَ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 12,
+          "text": "یُرَآءُوْنَ",
+          "translation": {
+            "text": "mereka berbuat ria",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "yurāūna",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 6395,
+          "position": 4,
+          "audio_url": null,
+          "verse_key": "107:6",
+          "verse_id": 6203,
+          "location": "107:6:4",
+          "text_uthmani": "٦",
+          "text_indopak": "٦",
+          "qpc_uthmani_hafs": "٦",
+          "char_type_name": "end",
+          "page_number": 546,
+          "line_number": 12,
+          "text": "۟ۙ",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(6)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 33280
+      },
+      "translations": [
+        {
+          "id": 181396,
+          "resource_id": 33,
+          "text": "yang berbuat riya`,<sup foot_note=135879>1</sup>"
+        }
+      ]
+    },
+    {
+      "id": 6204,
+      "verse_number": 7,
+      "verse_key": "107:7",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+      "chapter_id": 107,
+      "text_imlaei_simple": "ويمنعون الماعون",
+      "page_number": 546,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 7669,
+          "position": 1,
+          "audio_url": "wbw/107_007_001.mp3",
+          "verse_key": "107:7",
+          "verse_id": 6204,
+          "location": "107:7:1",
+          "text_uthmani": "وَيَمْنَعُونَ",
+          "text_indopak": "وَيَمۡنَعُوۡنَ",
+          "qpc_uthmani_hafs": "وَيَمۡنَعُونَ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 13,
+          "text": "وَیَمْنَعُوْنَ",
+          "translation": {
+            "text": "dan mereka mencegah/enggan",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "wayamnaʿūna",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 7670,
+          "position": 2,
+          "audio_url": "wbw/107_007_002.mp3",
+          "verse_key": "107:7",
+          "verse_id": 6204,
+          "location": "107:7:2",
+          "text_uthmani": "ٱلْمَاعُونَ",
+          "text_indopak": "الۡمَاعُوۡنَ‏",
+          "qpc_uthmani_hafs": "ٱلۡمَاعُونَ",
+          "char_type_name": "word",
+          "page_number": 546,
+          "line_number": 13,
+          "text": "الْمَاعُوْنَ",
+          "translation": {
+            "text": "pertolongan",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": "l-māʿūna",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 7671,
+          "position": 3,
+          "audio_url": null,
+          "verse_key": "107:7",
+          "verse_id": 6204,
+          "location": "107:7:3",
+          "text_uthmani": "٧",
+          "text_indopak": "٧",
+          "qpc_uthmani_hafs": "٧",
+          "char_type_name": "end",
+          "page_number": 546,
+          "line_number": 13,
+          "text": "۟۠",
+          "css_class": "mr15",
+          "translation": {
+            "text": "(7)",
+            "language_name": "indonesian",
+            "language_id": 67
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "timestamps": {
+        "timestamp_from": 40910
+      },
+      "translations": [
+        {
+          "id": 181415,
+          "resource_id": 33,
+          "text": "dan enggan (memberikan) bantuan.<sup foot_note=135880>1</sup>"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "per_page": 7,
+    "current_page": 1,
+    "next_page": null,
+    "total_pages": 1,
+    "total_records": 7
+  }
+}

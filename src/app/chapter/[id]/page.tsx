@@ -9,15 +9,31 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import chapters from "../../../data/chapters.json";
 import { Metadata } from "next";
+import path from "path";
+import fs from "fs";
 
 type Params = Promise<{ id: string[] }>;
 
 const fetchChapter = async (id: number) => {
   try {
-    const response = await serverApiClient.get<Chapter>(
-      `/verses/by_chapter/${id}?words=true&per_page=all&fields=text_uthmani,chapter_id,hizb_number,text_imlaei_simple&reciter=7&word_translation_language=id&word_fields=verse_key,verse_id,page_number,location,text_uthmani,text_indopak,qpc_uthmani_hafs&mushaf=7&filter_page_words=true&translations=131&from=${id}:1&to=${id}:10`
+    // const response = await serverApiClient.get<Chapter>(
+    //   `/verses/by_chapter/${id}?words=true&per_page=all&fields=text_uthmani,chapter_id,hizb_number,text_imlaei_simple&reciter=7&word_translation_language=id&word_fields=verse_key,verse_id,page_number,location,text_uthmani,text_indopak,qpc_uthmani_hafs&mushaf=7&filter_page_words=true&translations=131&from=${id}:1&to=${id}:10`
+    // );
+    // return response.data;
+    let filePath = path.join(
+      process.cwd(),
+      "src",
+      "data",
+      "ayat",
+      `${id}.json`
     );
-    return response.data;
+    if (!fs.existsSync(filePath)) {
+      return null;
+    }
+
+    const fileContent = fs.readFileSync(filePath, "utf-8");
+    const jsonData = JSON.parse(fileContent);
+    return jsonData.verses as Verse[];
   } catch (error) {
     console.error("Error fetching chapters:", error);
     return null;
@@ -38,10 +54,9 @@ export const generateMetadata = async ({
 };
 
 export default async function ChapterPage({ params }: { params: Params }) {
-  // const id = Number(params.id);
   const { id } = await params;
   const data = await fetchChapter(Number(id));
-  const verses = data?.verses;
+  const verses = data;
   const chapter = chapters.find((e: ChapterV2) => e.id == Number(id));
 
   if (!data) {
@@ -59,18 +74,7 @@ export default async function ChapterPage({ params }: { params: Params }) {
           {chapter?.bismillah_pre && <Basmalah />}
         </div>
       </div>
-      {/* <Tabs defaultValue="account" className="w-full">
-        <TabsList className="grid w-full grid-cols-2">
-          <TabsTrigger value="account">Translation</TabsTrigger>
-          <TabsTrigger value="password">Reading</TabsTrigger>
-        </TabsList>
-        <TabsContent value="account"> */}
       <VerseComponent verses={verses ?? []} chapter={chapter} />
-      {/* </TabsContent>
-        <TabsContent value="password">
-          <Reading verses={data.verses} />
-        </TabsContent>
-      </Tabs> */}
       <div className="mt-10">
         <div className="mx-auto max-w-xl flex gap-4">
           {Number(id) != 1 && (

@@ -97,32 +97,32 @@ export default function VerseComponent({
     }
   }, [activeVerse]);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.innerHeight + window.scrollY;
-      const threshold = document.documentElement.scrollHeight - 30;
-      if (
-        scrollPosition >= threshold &&
-        indexOfLastSplitChapterVerses < chapterVersesSplitted.length - 1
-      ) {
-        loadMoreVerse();
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollPosition = window.innerHeight + window.scrollY;
+  //     const threshold = document.documentElement.scrollHeight - 30;
+  //     if (
+  //       scrollPosition >= threshold &&
+  //       indexOfLastSplitChapterVerses < chapterVersesSplitted.length - 1
+  //     ) {
+  //       loadMoreVerse();
+  //     }
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [indexOfLastSplitChapterVerses]);
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, [indexOfLastSplitChapterVerses]);
 
-  const loadMoreVerse = async () => {
-    const { from, to } =
-      chapterVersesSplitted[indexOfLastSplitChapterVerses + 1];
-    setIndexOfLastSplitChapterVerses((prev) => prev + 1);
-    console.log(to);
-    const newVerses = await apiClient.get<Chapter>(
-      `/verses/by_chapter/${chapter?.id}?words=true&per_page=all&fields=text_uthmani,chapter_id,hizb_number,text_imlaei_simple&reciter=7&word_translation_language=id&word_fields=verse_key,verse_id,page_number,location,text_uthmani,text_indopak,qpc_uthmani_hafs&mushaf=7&filter_page_words=true&translations=131&from=${chapterVersesSplitted[0].from}&to=${to}`
-    );
-    setChapterVerses([...newVerses.data.verses]);
-  };
+  // const loadMoreVerse = async () => {
+  //   const { from, to } =
+  //     chapterVersesSplitted[indexOfLastSplitChapterVerses + 1];
+  //   setIndexOfLastSplitChapterVerses((prev) => prev + 1);
+  //   console.log(to);
+  //   const newVerses = await apiClient.get<Chapter>(
+  //     `/verses/by_chapter/${chapter?.id}?words=true&per_page=all&fields=text_uthmani,chapter_id,hizb_number,text_imlaei_simple&reciter=7&word_translation_language=id&word_fields=verse_key,verse_id,page_number,location,text_uthmani,text_indopak,qpc_uthmani_hafs&mushaf=7&filter_page_words=true&translations=131&from=${chapterVersesSplitted[0].from}&to=${to}`
+  //   );
+  //   setChapterVerses([...newVerses.data.verses]);
+  // };
 
   const playAudio = async (verse_key: string) => {
     setIsAudioPlay(true);
@@ -184,17 +184,6 @@ export default function VerseComponent({
           />
         </div>
       ))}
-      {indexOfLastSplitChapterVerses < chapterVersesSplitted.length - 1 && (
-        <div className="flex">
-          <Button
-            className="mx-auto"
-            onClick={loadMoreVerse}
-            variant={"outline"}
-          >
-            Load more
-          </Button>
-        </div>
-      )}
       <TafsirDialog
         verse={defaultVerse ?? null}
         isTafsirDialogOpen={isTafsirDialogOpen}
