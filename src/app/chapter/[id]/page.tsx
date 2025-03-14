@@ -74,7 +74,7 @@ export default async function ChapterPage({ params }: { params: Params }) {
           {chapter?.bismillah_pre && <Basmalah />}
         </div>
       </div>
-      <Tabs defaultValue="translation" className="w-[400px]">
+      <Tabs defaultValue="translation" className="w-full">
         <TabsList className="grid w-full grid-cols-2">
           <TabsTrigger value="translation">Translation</TabsTrigger>
           <TabsTrigger value="reading">Reading</TabsTrigger>
