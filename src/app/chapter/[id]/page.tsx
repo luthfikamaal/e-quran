@@ -75,7 +75,7 @@ export default async function ChapterPage({ params }: { params: Params }) {
         </div>
       </div>
       <Tabs defaultValue="translation" className="w-full">
-        <TabsList className="grid w-full grid-cols-2">
+        <TabsList className="grid w-[300px] mx-auto grid-cols-2">
           <TabsTrigger value="translation">Translation</TabsTrigger>
           <TabsTrigger value="reading">Reading</TabsTrigger>
         </TabsList>
