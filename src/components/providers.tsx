@@ -3,6 +3,7 @@ import { ButtonBackProvider } from "./providers/ButtonBackProvider";
 import { ThemeProvider } from "./theme-provider";
 import { TooltipProvider } from "./ui/tooltip";
 import { AppProgressBar } from "next-nprogress-bar";
+import { ProgressProvider } from "@bprogress/next/app";
 export default function Providers({
   children,
 }: Readonly<{
@@ -18,9 +19,9 @@ export default function Providers({
       >
         <ButtonBackProvider>
           <TooltipProvider>
-            <AppProgressBar
+            <ProgressProvider
               height="4px"
-              color="#fffd00"
+              color="#3b82f6"
               options={{ showSpinner: false }}
               shallowRouting
             />

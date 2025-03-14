@@ -190,6 +190,13 @@
     font-weight: normal;
     font-style: normal;
   }
+  @font-face {
+    font-family: "Omar";
+    src: url("/fonts/b85ebe9ea4520be2-s.p.woff2") format("woff2"),
+      url("/fonts/b85ebe9ea4520be2-s.p.woff2") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
 
   .verse {
     font-size: 30px;
@@ -198,6 +205,9 @@
     font-style: normal;
     font-weight: 400;
     text-align: right;
+  }
+  .verse-omar {
+    font-family: "Omar";
   }
   .surah-name {
     @apply text-6xl;

@@ -175,9 +175,12 @@ export default function VerseComponent({
               </Tooltip>
             </div>
           </div>
-          <p className="verse inline-flex items-center relative">
+          <span className="verse" dir="rtl">
             {verse.text_uthmani}
-          </p>
+            <span key={index} className="mr-3 verse-omar">
+              ۝{verse.words[verse.words.length - 1].text_uthmani}{" "}
+            </span>
+          </span>
           <div
             className="text-base mt-2 font-normal mb-4 text-slate-700 dark:text-slate-300 text-left"
             dangerouslySetInnerHTML={{ __html: verse.translations[0].text }}
