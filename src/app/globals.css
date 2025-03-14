@@ -169,26 +169,24 @@
   }
   @font-face {
     font-family: "LPMQ Isep Misbah";
-    src: url("../../public/fonts/LPMQ.06824f462ea6f50047d9.woff2")
-        format("woff2"),
-      url("../../public/fonts/LPMQ.06824f462ea6f50047d9.woff2") format("woff"),
-      url("../../public/fonts/LPMQ.06824f462ea6f50047d9.woff2")
-        format("truetype");
+    src: url("/fonts/LPMQ.06824f462ea6f50047d9.woff2") format("woff2"),
+      url("/fonts/LPMQ.06824f462ea6f50047d9.woff2") format("woff"),
+      url("/fonts/LPMQ.06824f462ea6f50047d9.woff2") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
     font-family: "Surah Names";
-    src: url("../../public/fonts/sura_names.woff2") format("woff2"),
-      url("../../public/fonts/sura_names.woff2") format("woff");
+    src: url("/fonts/sura_names.woff2") format("woff2"),
+      url("/fonts/sura_names.woff2") format("woff");
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: "P604";
-    src: url("../../public/fonts/p604.woff2") format("woff2"),
-      url("../../public/fonts/p604.woff2") format("woff");
+    src: url("/fonts/p604.woff2") format("woff2"),
+      url("/fonts/p604.woff2") format("woff");
     font-weight: normal;
     font-style: normal;
   }
