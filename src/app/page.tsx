@@ -1,5 +1,3 @@
-import Image from "next/image";
-import chapters from "../data/chapters.json";
 import HomeComponent from "./homecomponent";
 
 export default function Home() {
