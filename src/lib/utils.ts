@@ -24,3 +24,21 @@ export function splitChapterVerses(
 
   return result;
 }
+
+export function formatDates(dates: string): string {
+  return dates
+    .split("-")
+    .map((date: string) => {
+      return date.replace(/-0/g, "-"); // Menghapus nol di bulan dan hari
+    })
+    .join("-");
+}
+
+export function formatDate(dateString: string): string {
+  const date = new Date(dateString);
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}

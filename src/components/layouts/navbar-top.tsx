@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import ToogleMode from "../toggle-mode";
-import { Input } from "../ui/input";
 import { useButtonBack } from "../providers/ButtonBackProvider";
 
 export default function NavbarTop() {

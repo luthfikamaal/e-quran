@@ -1,5 +1,6 @@
-import { Bell, Home, Search, User } from "lucide-react";
+import { AlarmClock, Bell, Home, Search, User } from "lucide-react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export default function NavbarBottom() {
   return (
@@ -8,24 +9,28 @@ export default function NavbarBottom() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-4">
             <div className="flex justify-center">
-              <Button
-                variant={"ghost"}
-                size={"icon"}
-                className="size-12"
-                aria-label="Home"
-              >
-                <Home className="h-4 w-4" />
-              </Button>
+              <Link href={"/"}>
+                <Button
+                  variant={"ghost"}
+                  size={"icon"}
+                  className="size-12"
+                  aria-label="Home"
+                >
+                  <Home className="h-4 w-4" />
+                </Button>
+              </Link>
             </div>
             <div className="flex justify-center">
-              <Button
-                variant={"ghost"}
-                size={"icon"}
-                className="size-12"
-                aria-label="Explore"
-              >
-                <Search className="h-4 w-4" />
-              </Button>
+              <Link href={"/shalat"}>
+                <Button
+                  variant={"ghost"}
+                  size={"icon"}
+                  className="size-12"
+                  aria-label="Explore"
+                >
+                  <AlarmClock className="h-4 w-4" />
+                </Button>
+              </Link>
             </div>
             <div className="flex justify-center">
               <Button
@@ -38,14 +43,16 @@ export default function NavbarBottom() {
               </Button>
             </div>
             <div className="flex justify-center">
-              <Button
-                variant={"ghost"}
-                size={"icon"}
-                className="size-12"
-                aria-label="Account"
-              >
-                <User className="h-4 w-4" />
-              </Button>
+              <Link href={"/user"}>
+                <Button
+                  variant={"ghost"}
+                  size={"icon"}
+                  className="size-12"
+                  aria-label="Account"
+                >
+                  <User className="h-4 w-4" />
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

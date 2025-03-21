@@ -215,6 +215,10 @@
     background-image: url("/background-default.png");
   }
 
+  .bg-imsakiyah {
+    background-image: url("/mosque.svg");
+  }
+
   .m-scroll-56 {
     scroll-margin-top: 60px;
   }
