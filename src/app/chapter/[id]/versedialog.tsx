@@ -34,7 +34,7 @@ export default function VerseDialog({
 }) {
   const fav_Verses = localStorageUtils.get("fav_verses") as VerseRead[] | [];
   const [isLike, setIsLike] = useState<boolean>(
-    fav_Verses.length > 0
+    fav_Verses && fav_Verses.length > 0
       ? fav_Verses.some((e: VerseRead) => e.verse_key == verse?.verse_key)
       : false
   );
