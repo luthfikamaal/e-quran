@@ -84,13 +84,12 @@ export default function Reading({ verses, chapter }: VerseComponentProps) {
       <div className="mb-4 verse flex flex-row-reverse justify-between items-center flex-wrap gap-2 verse-section">
         {verses.map((verse: Verse, index: number) =>
           verse.words.map((word: Word, index2: number) => (
-            <span key={index2}>
+            <span key={index2} id={verse.verse_key}>
               {index2 != verse.words.length - 1 ? (
                 <span className="verse inline-flex">{word.text_uthmani}</span>
               ) : (
                 <button
                   className="verse-omar verse-section"
-                  id={verse.verse_key}
                   onClick={(e) => openTafsirDialog(verse.verse_key)}
                 >
                   ۝{verse.words[verse.words.length - 1].text_uthmani}{" "}
