@@ -5,6 +5,8 @@ import NavbarTop from "@/components/layouts/navbar-top";
 import Providers from "@/components/providers";
 import SidebarLeft from "@/components/layouts/sidebar-left";
 import SidebarRight from "@/components/layouts/sidebar-right";
+import NavbarBottom from "@/components/layouts/navbar-bottom";
+import { Toaster } from "@/components/ui/toaster";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -46,6 +48,8 @@ export default function RootLayout({
             {/* <SidebarRight className="col-span-1 hidden md:block overflow-auto scrollbar-hidden" /> */}
             {/* </div> */}
           </div>
+          <Toaster />
+          <NavbarBottom />
         </Providers>
       </body>
     </html>

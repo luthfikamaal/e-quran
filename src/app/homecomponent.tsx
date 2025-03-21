@@ -70,20 +70,20 @@ export default function HomeComponent() {
           <i className="fa-solid fa-pen text-[12px]"></i>
         </button>
       </div>
-      <div className="rounded-lg w-full text-white  bg-blue-500 px-8 py-7">
+      <div className="rounded-lg w-full text-black dark:text-white channel-bg-stat px-8 py-7 border border-solid">
         <div className="flex items-center gap-3 mb-2">
           <i className="fa-duotone fa-book-open-cover"></i>
           Last read
         </div>
         {lastRead ? (
           <Link
-            className="text-white"
+            className="text-black dark:text-white"
             href={
               `/chapter/${lastRead.verse_key.split(":")[0]}#` +
               lastRead.verse_key
             }
           >
-            <h1 className="text-3xl font-semibold">
+            <h1 className="text-3xl font-semibold text-black dark:text-white">
               {lastRead.name} : {lastRead.verse_key.split(":")[1]}
             </h1>
             {/* <span className="text-sm">
@@ -91,7 +91,7 @@ export default function HomeComponent() {
             </span> */}
           </Link>
         ) : (
-          <h1 className="text-white text-xl font-semibold">
+          <h1 className="text-black dark:text-white text-xl font-semibold">
             You haven't started reading the Quran yet
           </h1>
         )}

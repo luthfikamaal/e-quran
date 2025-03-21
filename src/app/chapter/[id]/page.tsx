@@ -74,16 +74,16 @@ export default async function ChapterPage({ params }: { params: Params }) {
           {chapter?.bismillah_pre && <Basmalah />}
         </div>
       </div>
-      <Tabs defaultValue="translation" className="w-full">
+      <Tabs defaultValue="reading" className="w-full">
         <TabsList className="grid w-[300px] mx-auto grid-cols-2">
-          <TabsTrigger value="translation">Translation</TabsTrigger>
           <TabsTrigger value="reading">Reading</TabsTrigger>
+          <TabsTrigger value="translation">Translation</TabsTrigger>
         </TabsList>
         <TabsContent value="translation">
           <VerseComponent verses={verses ?? []} chapter={chapter} />
         </TabsContent>
         <TabsContent value="reading">
-          <Reading verses={verses ?? []} />
+          <Reading verses={verses ?? []} chapter={chapter} />
         </TabsContent>
       </Tabs>
       <div className="mt-10">

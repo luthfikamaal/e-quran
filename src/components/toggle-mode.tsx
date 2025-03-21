@@ -13,17 +13,19 @@ export default function ToogleMode() {
     setIsClient(true);
   }, []);
   return (
-    <button
+    <Button
       onClick={() => setTheme(theme == "dark" ? "light" : "dark")}
       className="flex items-center justify-center"
+      variant={"outline"}
+      size={"icon"}
     >
       {theme == "dark" ? (
-        // <Moon className="h-[1.2rem] w-[1.2rem]" />
-        <i className="fa-solid fa-moon"></i>
+        <Moon className="h-[1.2rem] w-[1.2rem]" />
       ) : (
-        // <Sun className="h-[1.2rem] w-[1.2rem]" />
-        <i className="fa-solid fa-sun"></i>
+        // <i className="fa-solid fa-moon"></i>
+        <Sun className="h-[1.2rem] w-[1.2rem]" />
+        // <i className="fa-solid fa-sun"></i>
       )}
-    </button>
+    </Button>
   );
 }

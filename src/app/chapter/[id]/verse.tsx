@@ -68,6 +68,7 @@ export default function VerseComponent({
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
+            console.log(entry.target.id);
             setActiveVerse(entry.target.id);
           }
         });
@@ -137,7 +138,6 @@ export default function VerseComponent({
       {chapterVerses?.map((verse: Verse, index: number) => (
         <div
           className="text-right font-semibold text-2xl mb-3 border-b border-solid border-gray-400 verse verse-section"
-          id={verse.verse_key}
           key={index}
         >
           <div className="flex">

@@ -209,6 +209,12 @@
   .verse-omar {
     font-family: "Omar";
   }
+
+  .channel-bg-stat {
+    @apply bg-cover bg-no-repeat bg-center;
+    background-image: url("/background-default.png");
+  }
+
   .surah-name {
     @apply text-6xl;
     line-height: normal;
