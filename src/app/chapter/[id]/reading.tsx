@@ -86,7 +86,9 @@ export default function Reading({ verses, chapter }: VerseComponentProps) {
           verse.words.map((word: Word, index2: number) => (
             <span key={index2} id={verse.verse_key}>
               {index2 != verse.words.length - 1 ? (
-                <span className="verse inline-flex">{word.text_uthmani}</span>
+                <span className="verse inline-flex m-scroll-56">
+                  {word.text_uthmani}
+                </span>
               ) : (
                 <button
                   className="verse-omar verse-section"

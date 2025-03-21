@@ -215,6 +215,10 @@
     background-image: url("/background-default.png");
   }
 
+  .m-scroll-56 {
+    scroll-margin-top: 60px;
+  }
+
   .surah-name {
     @apply text-6xl;
     line-height: normal;
