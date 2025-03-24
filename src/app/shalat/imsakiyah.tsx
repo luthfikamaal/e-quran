@@ -1,5 +1,6 @@
 "use client";
 
+import { Skeleton } from "@/components/ui/skeleton";
 import { localStorageUtils } from "@/lib/localStorageUtils";
 import { formatDate, formatDates } from "@/lib/utils";
 import { Imsakiyah as ImsakiyahType, Prayer, Time } from "@/types/imsakiyah";
@@ -12,6 +13,9 @@ export default function Imsakiyah() {
   const [time, setTime] = useState<string>("");
   const [imsakiyah, setImsakiyah] = useState<ImsakiyahType | null>(null);
   const [prayerTime, setPrayerTime] = useState<Prayer | null>(null);
+  const [loading, setLoading] = useState<{ prayerTime: boolean }>({
+    prayerTime: true,
+  });
   const now = new Date();
 
   const fetchingLocation = () => {
@@ -78,11 +82,12 @@ export default function Imsakiyah() {
       );
     });
     setPrayerTime(row ?? null);
+    setLoading({ prayerTime: false });
   };
 
   return (
     <>
-      <div className="bg-blue-600 -mt-3 py-5 px-5">
+      <div className="bg-blue-600 dark:bg-blue-400 -mt-3 py-5 px-5">
         <div className="flex mb-3">
           <button
             className="text-sm bg-slate-100 hover:cursor-pointer flex items-center dark:bg-blue-200 px-3 py-2 rounded-full dark:text-slate-800"
@@ -99,62 +104,112 @@ export default function Imsakiyah() {
         </div>
       </div>
       <div className="px-5">
-        <div className="bg-white dark:bg-gray-900 px-4 py-3 shadow-md rounded-lg -mt-7">
+        <div className="bg-white dark:bg-blue-900 px-4 py-3 shadow-md rounded-lg -mt-7">
           <h1 className="text-center mb-3 font-semibold text-lg">
             {formatDate(
               `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()}`
             )}
           </h1>
-          <div className=" grid grid-cols-5">
+          <div className=" grid grid-cols-5 gap-2">
             <div className="text-slate-700 dark:text-slate-200 text-center">
-              <span className="block text-lg font-semibold">
-                {prayerTime?.time.subuh}
-              </span>
-              <span>Shubuh</span>
+              {loading.prayerTime ? (
+                <Skeleton className="h-[50px] w-full" />
+              ) : (
+                <>
+                  <span className="block text-lg font-semibold">
+                    {prayerTime?.time.subuh}
+                  </span>
+                  <span>Shubuh</span>
+                </>
+              )}
             </div>
             <div className="text-slate-700 dark:text-slate-200 text-center">
-              <span className="block text-lg font-semibold">
-                {prayerTime?.time.dzuhur}
-              </span>
-              <span>Dzuhur</span>
+              {loading.prayerTime ? (
+                <Skeleton className="h-[50px] w-full" />
+              ) : (
+                <>
+                  <span className="block text-lg font-semibold">
+                    {prayerTime?.time.dzuhur}
+                  </span>
+                  <span>Dzuhur</span>
+                </>
+              )}
             </div>
             <div className="text-slate-700 dark:text-slate-200 text-center">
-              <span className="block text-lg font-semibold">
-                {prayerTime?.time.ashar}
-              </span>
-              <span>Ashar</span>
+              {loading.prayerTime ? (
+                <Skeleton className="h-[50px] w-full" />
+              ) : (
+                <>
+                  <span className="block text-lg font-semibold">
+                    {prayerTime?.time.ashar}
+                  </span>
+                  <span>Ashar</span>
+                </>
+              )}
             </div>
             <div className="text-slate-700 dark:text-slate-200 text-center">
-              <span className="block text-lg font-semibold">
-                {prayerTime?.time.maghrib}
-              </span>
-              <span>Maghrib</span>
+              {loading.prayerTime ? (
+                <Skeleton className="h-[50px] w-full" />
+              ) : (
+                <>
+                  <span className="block text-lg font-semibold">
+                    {prayerTime?.time.maghrib}
+                  </span>
+                  <span>Maghrib</span>
+                </>
+              )}
             </div>
             <div className="text-slate-700 dark:text-slate-200 text-center">
-              <span className="block text-lg font-semibold">
-                {prayerTime?.time.isya}
-              </span>
-              <span>Isya</span>
+              {loading.prayerTime ? (
+                <Skeleton className="h-[50px] w-full" />
+              ) : (
+                <>
+                  <span className="block text-lg font-semibold">
+                    {prayerTime?.time.isya}
+                  </span>
+                  <span>Isya</span>
+                </>
+              )}
             </div>
           </div>
         </div>
-        <div className="px-4 py-3 rounded-lg bg-white dark:bg-gray-900 shadow-md mb-10 h-[55vh] overflow-scroll mt-7">
-          {imsakiyah &&
-            imsakiyah.prayers.map((prayer: Prayer, index: number) => (
+        <div className="shadow-md flex flex-col gap-y-2 h-[55vh] overflow-scroll mt-7">
+          {loading.prayerTime ? (
+            <>
+              <Skeleton className="h-[100px] mb-2 w-full" />
+              <Skeleton className="h-[100px] mb-2 w-full" />
+              <Skeleton className="h-[100px] mb-2 w-full" />
+              <Skeleton className="h-[100px] mb-2 w-full" />
+              <Skeleton className="h-[100px] mb-2 w-full" />
+              <Skeleton className="h-[100px] mb-2 w-full" />
+              <Skeleton className="h-[100px] mb-2 w-full" />
+              <Skeleton className="h-[100px] mb-2 w-full" />
+              <Skeleton className="h-[100px] mb-2 w-full" />
+              <Skeleton className="h-[100px] mb-2 w-full" />
+              <Skeleton className="h-[100px] mb-2 w-full" />
+              <Skeleton className="h-[100px] mb-2 w-full" />
+            </>
+          ) : (
+            imsakiyah?.prayers?.map((prayer: Prayer, index: number) => (
               <div key={index} className="mb-3">
-                <h1>{formatDate(prayer.date)}</h1>
+                <h1 className="text-lg font-semibold">
+                  {formatDate(prayer.date)}
+                </h1>
                 {Object.entries(prayer.time).map(
                   ([key, value], index2: number) => (
-                    <div key={index2} className="flex my-2">
-                      <span className="w-[100px]">
+                    <div key={index2} className="flex items-center mb-1">
+                      <span className="w-[200px] font-semibold">
                         {key.charAt(0).toUpperCase() + key.slice(1)}
                       </span>
-                      <span>{value}</span>
+                      <span className="bg-green-600 text-white ml-auto dark:bg-green-400 dark:text-black px-1 py-[0.5] text-sm rounded-md">
+                        {value}
+                      </span>
                     </div>
                   )
                 )}
               </div>
-            ))}
+            ))
+          )}
         </div>
       </div>
     </>
