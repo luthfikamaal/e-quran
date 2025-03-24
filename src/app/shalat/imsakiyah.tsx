@@ -173,7 +173,7 @@ export default function Imsakiyah() {
             </div>
           </div>
         </div>
-        <div className="shadow-md flex flex-col gap-y-2 h-[55vh] overflow-scroll mt-7">
+        <div className="flex flex-col gap-y-2 h-[55vh] overflow-scroll mt-7">
           {loading.prayerTime ? (
             <>
               <Skeleton className="h-[100px] mb-2 w-full" />
