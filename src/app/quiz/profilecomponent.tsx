@@ -13,11 +13,14 @@ type QuizProps = {
 
 export default function QuizComponent({ quizzes }: QuizProps) {
   const { setPreviousUrl } = useButtonBack();
-  const submissions = localStorageUtils.get("submissions") as Submission[];
-  let submitted_quiz_ids = submissions.map(
-    (submission: Submission, i: number) => submission.quiz_id
-  );
-  // console.log(submitted_quiz_ids);
+  const submissions = localStorageUtils.get("submissions") as Submission[] | [];
+  let submitted_quiz_ids = [] as number[];
+
+  if (submissions) {
+    submitted_quiz_ids = submissions.map(
+      (submission: Submission, i: number) => submission.quiz_id
+    );
+  }
 
   useEffect(() => {
     setPreviousUrl(null);
