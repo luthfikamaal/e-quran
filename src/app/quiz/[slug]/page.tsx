@@ -3,21 +3,23 @@ import { Quiz } from "@/model/quiz";
 import { Metadata } from "next";
 import QuizDetailComponent from "./quizdetail";
 
-export const generateMetadata = ({
+type Params = Promise<{ slug: string }>;
+
+export const generateMetadata = async ({
   params,
 }: {
-  params: { slug: string };
-}): Metadata => {
-  const quiz = quizzes.find(
-    (e: Quiz, index: number) => e.slug == params.slug
-  ) as Quiz;
+  params: Params;
+}): Promise<Metadata> => {
+  const { slug } = await params;
+  const quiz = quizzes.find((e: Quiz, index: number) => e.slug == slug) as Quiz;
   return {
     title: quiz?.name,
   };
 };
 
-export default function QuizDetail({ params }: { params: { slug: string } }) {
-  const quiz = quizzes.find((e: Quiz, index: number) => e.slug == params.slug);
+export default async function QuizDetail({ params }: { params: Params }) {
+  const { slug } = await params;
+  const quiz = quizzes.find((e: Quiz, index: number) => e.slug == slug);
   if (!quiz) {
     return <div>Quiz not found</div>;
   }
