@@ -24,10 +24,10 @@ export default function QuizDetailComponent({ quiz }: { quiz: Quiz }) {
     setPreviousUrl("/quiz");
   }, [setUseNavbarBottom]);
 
-  let submissions = localStorageUtils.get("submissions") as Submission[] | null;
-  let submission: Submission | undefined;
+  let submissions = localStorageUtils.get("submissions") as Submission[] | [];
+  let submission: Submission | null | undefined = null;
   let score: number = 0;
-  if (submissions) {
+  if (submissions.length > 0) {
     submission = submissions.find(
       (e: Submission, index: number) => e.quiz_id === quiz.id
     );
