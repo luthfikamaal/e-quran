@@ -1,0 +1,622 @@
+[
+  {
+    "id": 1,
+    "slug": "kuis-rukun-islam",
+    "name": "Kuis Rukun Islam",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Rukun Islam yang pertama adalah...",
+        "options": [
+          { "label": "A", "body": "Sholat" },
+          { "label": "B", "body": "Zakat" },
+          { "label": "C", "body": "Syahadat" },
+          { "label": "D", "body": "Puasa" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 2,
+        "question": "Bulan Ramadhan adalah bulan untuk melaksanakan rukun Islam yang ke...",
+        "options": [
+          { "label": "A", "body": "2" },
+          { "label": "B", "body": "3" },
+          { "label": "C", "body": "4" },
+          { "label": "D", "body": "5" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 3,
+        "question": "Ibadah haji dilaksanakan di kota...",
+        "options": [
+          { "label": "A", "body": "Madinah" },
+          { "label": "B", "body": "Mekkah" },
+          { "label": "C", "body": "Yerusalem" },
+          { "label": "D", "body": "Kairo" }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 4,
+        "question": "Bacaan 'Subhanallah' artinya...",
+        "options": [
+          { "label": "A", "body": "Maha Pengasih" },
+          { "label": "B", "body": "Maha Penyayang" },
+          { "label": "C", "body": "Maha Suci Allah" },
+          { "label": "D", "body": "Maha Besar Allah" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 5,
+        "question": "Zakat fitrah dikeluarkan pada bulan...",
+        "options": [
+          { "label": "A", "body": "Muharram" },
+          { "label": "B", "body": "Shafar" },
+          { "label": "C", "body": "Ramadhan" },
+          { "label": "D", "body": "Dzulhijjah" }
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "kuis-sholat-wajib",
+    "name": "Kuis Sholat Wajib",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Jumlah sholat wajib dalam sehari semalam adalah...",
+        "options": [
+          { "label": "A", "body": "3" },
+          { "label": "B", "body": "5" },
+          { "label": "C", "body": "7" },
+          { "label": "D", "body": "9" }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 2,
+        "question": "Sholat yang dikerjakan pada waktu terbit fajar adalah sholat...",
+        "options": [
+          { "label": "A", "body": "Dzuhur" },
+          { "label": "B", "body": "Ashar" },
+          { "label": "C", "body": "Maghrib" },
+          { "label": "D", "body": "Subuh" }
+        ],
+        "answer": 3
+      },
+      {
+        "id": 3,
+        "question": "Bacaan 'Allahu Akbar' disebut...",
+        "options": [
+          { "label": "A", "body": "Tasbih" },
+          { "label": "B", "body": "Tahmid" },
+          { "label": "C", "body": "Takbir" },
+          { "label": "D", "body": "Tahlil" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 4,
+        "question": "Gerakan sholat dimana dahi, hidung, telapak tangan, lutut, dan ujung kaki menyentuh lantai disebut...",
+        "options": [
+          { "label": "A", "body": "Ruku'" },
+          { "label": "B", "body": "I'tidal" },
+          { "label": "C", "body": "Sujud" },
+          { "label": "D", "body": "Duduk di antara dua sujud" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 5,
+        "question": "Surah Al-Fatihah dibaca pada setiap...sholat",
+        "options": [
+          { "label": "A", "body": "Akhir" },
+          { "label": "B", "body": "Awal" },
+          { "label": "C", "body": "Rakaat" },
+          { "label": "D", "body": "Gerakan" }
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "kuis-puasa-ramadhan",
+    "name": "Kuis Puasa Ramadhan",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Puasa Ramadhan hukumnya adalah...",
+        "options": [
+          { "label": "A", "body": "Sunnah" },
+          { "label": "B", "body": "Wajib" },
+          { "label": "C", "body": "Makruh" },
+          { "label": "D", "body": "Mubah" }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 2,
+        "question": "Menahan diri dari makan, minum, dan hal-hal yang membatalkan puasa disebut...",
+        "options": [
+          { "label": "A", "body": "I'tikaf" },
+          { "label": "B", "body": "Qiyamul Lail" },
+          { "label": "C", "body": "Puasa" },
+          { "label": "D", "body": "Tarawih" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 3,
+        "question": "Makan sahur hukumnya adalah...",
+        "options": [
+          { "label": "A", "body": "Wajib" },
+          { "label": "B", "body": "Sunnah" },
+          { "label": "C", "body": "Makruh" },
+          { "label": "D", "body": "Mubah" }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 4,
+        "question": "Membatalkan puasa sebelum waktunya disebut...",
+        "options": [
+          { "label": "A", "body": "Qadha" },
+          { "label": "B", "body": "Fidyah" },
+          { "label": "C", "body": "Gugur" },
+          { "label": "D", "body": "Batal" }
+        ],
+        "answer": 3
+      },
+      {
+        "id": 5,
+        "question": "Sholat sunnah yang dikerjakan pada malam bulan Ramadhan adalah...",
+        "options": [
+          { "label": "A", "body": "Dhuha" },
+          { "label": "B", "body": "Tahajud" },
+          { "label": "C", "body": "Tarawih" },
+          { "label": "D", "body": "Witir" }
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "kuis-zakat",
+    "name": "Kuis Zakat",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Zakat termasuk dalam rukun Islam yang ke...",
+        "options": [
+          { "label": "A", "body": "2" },
+          { "label": "B", "body": "3" },
+          { "label": "C", "body": "4" },
+          { "label": "D", "body": "5" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 2,
+        "question": "Harta yang wajib dizakati disebut...",
+        "options": [
+          { "label": "A", "body": "Infak" },
+          { "label": "B", "body": "Sedekah" },
+          { "label": "C", "body": "Nisab" },
+          { "label": "D", "body": "Hibah" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 3,
+        "question": "Orang yang berhak menerima zakat disebut...",
+        "options": [
+          { "label": "A", "body": "Muzakki" },
+          { "label": "B", "body": "Amil" },
+          { "label": "C", "body": "Mustahik" },
+          { "label": "D", "body": "Panitia" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 4,
+        "question": "Zakat fitrah berupa...",
+        "options": [
+          { "label": "A", "body": "Uang" },
+          { "label": "B", "body": "Emas" },
+          { "label": "C", "body": "Makanan pokok" },
+          { "label": "D", "body": "Hewan ternak" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 5,
+        "question": "Waktu mengeluarkan zakat fitrah adalah...",
+        "options": [
+          { "label": "A", "body": "Awal Ramadhan" },
+          { "label": "B", "body": "Akhir Ramadhan" },
+          { "label": "C", "body": "Sebelum Idul Fitri" },
+          { "label": "D", "body": "Sesudah Idul Fitri" }
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "kuis-haji",
+    "name": "Kuis Haji",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Haji adalah rukun Islam yang ke...",
+        "options": [
+          { "label": "A", "body": "3" },
+          { "label": "B", "body": "4" },
+          { "label": "C", "body": "5" },
+          { "label": "D", "body": "6" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 2,
+        "question": "Kota yang menjadi tujuan utama ibadah haji adalah...",
+        "options": [
+          { "label": "A", "body": "Madinah" },
+          { "label": "B", "body": "Mekkah" },
+          { "label": "C", "body": "Palestina" },
+          { "label": "D", "body": "Yordania" }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 3,
+        "question": "Berlari-lari kecil antara bukit Safa dan Marwah disebut...",
+        "options": [
+          { "label": "A", "body": "Wukuf" },
+          { "label": "B", "body": "Sa'i" },
+          { "label": "C", "body": "Tawaf" },
+          { "label": "D", "body": "Mabit" }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 4,
+        "question": "Berhenti dan berdiam diri di Padang Arafah pada tanggal 9 Dzulhijjah disebut...",
+        "options": [
+          { "label": "A", "body": "Wukuf" },
+          { "label": "B", "body": "Sa'i" },
+          { "label": "C", "body": "Tawaf" },
+          { "label": "D", "body": "Mabit" }
+        ],
+        "answer": 0
+      },
+      {
+        "id": 5,
+        "question": "Mengelilingi Ka'bah sebanyak tujuh kali disebut...",
+        "options": [
+          { "label": "A", "body": "Wukuf" },
+          { "label": "B", "body": "Sa'i" },
+          { "label": "C", "body": "Tawaf" },
+          { "label": "D", "body": "Mabit" }
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "sirah-nabawiyah",
+    "name": "Kuis Sirah Nabawiyah",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Nabi Muhammad SAW menerima wahyu pertama di...",
+        "options": [
+          { "label": "A", "body": "Gua Hira" },
+          { "label": "B", "body": "Gua Tsur" },
+          { "label": "C", "body": "Jabal Rahmah" },
+          { "label": "D", "body": "Darul Arqam" }
+        ],
+        "answer": 0
+      },
+      {
+        "id": 2,
+        "question": "Peristiwa Isra' Mi'raj terjadi pada tahun keberapa kenabian?",
+        "options": [
+          { "label": "A", "body": "5" },
+          { "label": "B", "body": "8" },
+          { "label": "C", "body": "10" },
+          { "label": "D", "body": "12" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 3,
+        "question": "Sahabat Nabi yang dijuluki 'Ash-Shiddiq' adalah...",
+        "options": [
+          { "label": "A", "body": "Umar bin Khattab" },
+          { "label": "B", "body": "Utsman bin Affan" },
+          { "label": "C", "body": "Ali bin Abi Thalib" },
+          { "label": "D", "body": "Abu Bakar" }
+        ],
+        "answer": 3
+      },
+      {
+        "id": 4,
+        "question": "Perjanjian Hudaibiyah terjadi antara kaum Muslimin dan...",
+        "options": [
+          { "label": "A", "body": "Yahudi Madinah" },
+          { "label": "B", "body": "Nasrani Najran" },
+          { "label": "C", "body": "Kaum Quraisy Mekkah" },
+          { "label": "D", "body": "Bangsa Romawi" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 5,
+        "question": " غزوة  terakhir yang diikuti oleh Nabi Muhammad SAW adalah...",
+        "options": [
+          { "label": "A", "body": "Perang Badar" },
+          { "label": "B", "body": "Perang Uhud" },
+          { "label": "C", "body": "Perang Khandaq" },
+          { "label": "D", "body": "Perang Tabuk" }
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "fiqih-ibadah",
+    "name": "Kuis Fiqih Ibadah",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Rukun sholat yang berupa gerakan adalah...",
+        "options": [
+          { "label": "A", "body": "Membaca Al-Fatihah" },
+          { "label": "B", "body": "Ruku'" },
+          { "label": "C", "body": "Tasyahud Akhir" },
+          { "label": "D", "body": "Niat" }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 2,
+        "question": "Jika seseorang lupa jumlah rakaat sholat, maka ia disunnahkan melakukan...",
+        "options": [
+          { "label": "A", "body": "Sujud Sahwi" },
+          { "label": "B", "body": "Sujud Syukur" },
+          { "label": "C", "body": "Tayamum" },
+          { "label": "D", "body": "Istighfar" }
+        ],
+        "answer": 0
+      },
+      {
+        "id": 3,
+        "question": "Puasa yang dilakukan sebagai pengganti puasa Ramadhan yang ditinggalkan disebut...",
+        "options": [
+          { "label": "A", "body": "Puasa Sunnah" },
+          { "label": "B", "body": "Puasa Nazar" },
+          { "label": "C", "body": "Puasa Qadha" },
+          { "label": "D", "body": "Puasa Ayyamul Bidh" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 4,
+        "question": "Berikut ini yang termasuk sunnah haji adalah...",
+        "options": [
+          { "label": "A", "body": "Wukuf di Arafah" },
+          { "label": "B", "body": "Thawaf Ifadhah" },
+          { "label": "C", "body": "Mabit di Muzdalifah" },
+          { "label": "D", "body": "Sa'i" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 5,
+        "question": "Binatang ternak yang wajib dizakati adalah...",
+        "options": [
+          { "label": "A", "body": "Ayam" },
+          { "label": "B", "body": "Kucing" },
+          { "label": "C", "body": "Sapi" },
+          { "label": "D", "body": "Ikan" }
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "sejarah-islam",
+    "name": "Kuis Sejarah Islam",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Khalifah pertama setelah wafatnya Nabi Muhammad SAW adalah...",
+        "options": [
+          { "label": "A", "body": "Umar bin Khattab" },
+          { "label": "B", "body": "Utsman bin Affan" },
+          { "label": "C", "body": "Ali bin Abi Thalib" },
+          { "label": "D", "body": "Abu Bakar Ash-Shiddiq" }
+        ],
+        "answer": 3
+      },
+      {
+        "id": 2,
+        "question": "Peristiwa besar yang menyebabkan terpecahnya umat Islam menjadi Sunni dan Syi'ah adalah...",
+        "options": [
+          { "label": "A", "body": "Perang Badar" },
+          { "label": "B", "body": "Wafatnya Nabi Muhammad SAW" },
+          { "label": "C", "body": "Perang Siffin" },
+          { "label": "D", "body": "Penaklukan Konstantinopel" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 3,
+        "question": "Dinasti Abbasiyah didirikan oleh keturunan...",
+        "options": [
+          { "label": "A", "body": "Bani Umayyah" },
+          { "label": "B", "body": "Bani Hasyim" },
+          { "label": "C", "body": "Bani Abbas" },
+          { "label": "D", "body": "Bani Zuhrah" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 4,
+        "question": "Salah satu ilmuwan Muslim terkenal pada masa kejayaan Islam adalah...",
+        "options": [
+          { "label": "A", "body": "Leonardo da Vinci" },
+          { "label": "B", "body": "Isaac Newton" },
+          { "label": "C", "body": "Ibnu Sina" },
+          { "label": "D", "body": "Galileo Galilei" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 5,
+        "question": "Penaklukan Konstantinopel oleh umat Islam terjadi pada masa pemerintahan...",
+        "options": [
+          { "label": "A", "body": "Umar bin Khattab" },
+          { "label": "B", "body": "Harun ar-Rasyid" },
+          { "label": "C", "body": "Salahuddin Al-Ayyubi" },
+          { "label": "D", "body": "Sultan Muhammad Al-Fatih" }
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "akidah-akhlak",
+    "name": "Kuis Akidah Akhlak",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Percaya kepada hari akhir termasuk dalam rukun...",
+        "options": [
+          { "label": "A", "body": "Rukun Islam" },
+          { "label": "B", "body": "Rukun Iman" },
+          { "label": "C", "body": "Rukun Ihsan" },
+          { "label": "D", "body": "Rukun Ibadah" }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 2,
+        "question": "Sifat wajib Allah yang berarti Maha Mendengar adalah...",
+        "options": [
+          { "label": "A", "body": "Al-Bashir" },
+          { "label": "B", "body": "Al-Alim" },
+          { "label": "C", "body": "As-Sami'" },
+          { "label": "D", "body": "Al-Qadir" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 3,
+        "question": "Perilaku jujur disebut...",
+        "options": [
+          { "label": "A", "body": "Syaja'ah" },
+          { "label": "B", "body": "Amanah" },
+          { "label": "C", "body": "Sidik" },
+          { "label": "D", "body": "Ikhlas" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 4,
+        "question": "Menghindari perbuatan tercela disebut...",
+        "options": [
+          { "label": "A", "body": "Husnuzan" },
+          { "label": "B", "body": "Wara'" },
+          { "label": "C", "body": "Tawadhu'" },
+          { "label": "D", "body": "Qana'ah" }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 5,
+        "question": "Balasan dari perbuatan baik adalah...",
+        "options": [
+          { "label": "A", "body": "Neraka" },
+          { "label": "B", "body": "Surga" },
+          { "label": "C", "body": "Dunia" },
+          { "label": "D", "body": "Azab" }
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "al-quran-hadis",
+    "name": "Kuis Al-Qur'an dan Hadis",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Kitab suci umat Islam adalah...",
+        "options": [
+          { "label": "A", "body": "Taurat" },
+          { "label": "B", "body": "Injil" },
+          { "label": "C", "body": "Al-Qur'an" },
+          { "label": "D", "body": "Zabur" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 2,
+        "question": "Wahyu pertama yang diterima Nabi Muhammad SAW adalah surah...",
+        "options": [
+          { "label": "A", "body": "Al-Fatihah" },
+          { "label": "B", "body": "Al-Baqarah" },
+          { "label": "C", "body": "Al-Ikhlas" },
+          { "label": "D", "body": "Al-Alaq" }
+        ],
+        "answer": 3
+      },
+      {
+        "id": 3,
+        "question": "Perkataan, perbuatan, dan ketetapan Nabi Muhammad SAW disebut...",
+        "options": [
+          { "label": "A", "body": "Ijma'" },
+          { "label": "B", "body": "Qiyas" },
+          { "label": "C", "body": "Hadis" },
+          { "label": "D", "body": "Sunnah" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 4,
+        "question": "Surah dalam Al-Qur'an yang paling pendek adalah...",
+        "options": [
+          { "label": "A", "body": "Al-Kautsar" },
+          { "label": "B", "body": "Al-Falaq" },
+          { "label": "C", "body": "An-Nas" },
+          { "label": "D", "body": "Al-Ikhlas" }
+        ],
+        "answer": 0
+      },
+      {
+        "id": 5,
+        "question": "Salah satu kitab hadis yang terkenal adalah...",
+        "options": [
+          { "label": "A", "body": "Al-Muwattha'" },
+          { "label": "B", "body": "Sahih Bukhari" },
+          { "label": "C", "body": "Jami' at-Tirmidzi" },
+          { "label": "D", "body": "Semua jawaban benar" }
+        ],
+        "answer": 3
+      }
+    ]
+  }
+]

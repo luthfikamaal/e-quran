@@ -4,6 +4,7 @@ import { ThemeProvider } from "./theme-provider";
 import { TooltipProvider } from "./ui/tooltip";
 import { AppProgressBar } from "next-nprogress-bar";
 import { ProgressProvider } from "@bprogress/next/app";
+import { NavbarBottomProvider } from "./providers/NavbarBottomProvider";
 export default function Providers({
   children,
 }: Readonly<{
@@ -18,15 +19,17 @@ export default function Providers({
         disableTransitionOnChange
       >
         <ButtonBackProvider>
-          <TooltipProvider>
-            <ProgressProvider
-              height="4px"
-              color="#3b82f6"
-              options={{ showSpinner: false }}
-              shallowRouting
-            />
-            {children}
-          </TooltipProvider>
+          <NavbarBottomProvider>
+            <TooltipProvider>
+              <ProgressProvider
+                height="4px"
+                color="#3b82f6"
+                options={{ showSpinner: false }}
+                shallowRouting
+              />
+              {children}
+            </TooltipProvider>
+          </NavbarBottomProvider>
         </ButtonBackProvider>
       </ThemeProvider>
     </>
