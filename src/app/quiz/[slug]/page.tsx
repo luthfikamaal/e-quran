@@ -3,14 +3,10 @@ import { Quiz } from "@/model/quiz";
 import { Metadata } from "next";
 import QuizDetailComponent from "./quizdetail";
 
-type ParamProps = {
-  slug: string;
-};
-
 export const generateMetadata = ({
   params,
 }: {
-  params: ParamProps;
+  params: { slug: string };
 }): Metadata => {
   const quiz = quizzes.find(
     (e: Quiz, index: number) => e.slug == params.slug
@@ -20,7 +16,7 @@ export const generateMetadata = ({
   };
 };
 
-export default function QuizDetail({ params }: { params: ParamProps }) {
+export default function QuizDetail({ params }: { params: { slug: string } }) {
   const quiz = quizzes.find((e: Quiz, index: number) => e.slug == params.slug);
   if (!quiz) {
     return <div>Quiz not found</div>;
