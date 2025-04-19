@@ -27,7 +27,7 @@ export default function QuizDetailComponent({ quiz }: { quiz: Quiz }) {
   let submissions = localStorageUtils.get("submissions") as Submission[] | [];
   let submission: Submission | null | undefined = null;
   let score: number = 0;
-  if (submissions.length > 0) {
+  if (submissions) {
     submission = submissions.find(
       (e: Submission, index: number) => e.quiz_id === quiz.id
     );
